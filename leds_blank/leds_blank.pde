@@ -29,8 +29,7 @@ void setup() {
   // x, y: Center location, in pixels
   // spacing: Spacing between LEDs, in pixels
   // angle: Angle, in radians. Positive is clockwise, 0 is to the right.
-  // reversed: true = Right to left, false = Left to right
-  // type: 0=Short Short Long, 1=Short Long Short, 2=Long Short Short
+  // direction: true = Right to left, false = Left to right
 
   opc.ledStrip(0, 15, width/2, 15*2+150, 20, 0, false);
   opc.ledStrip(64, 15, width/2, 15*4+150, 20, 0, false);

@@ -23,6 +23,15 @@ void setup() {
    
   // Leave this whole section alone for now
   // opc.ledStrip(index, number of leds in strip, x location, y location, spacing, angle, direction)
+
+  // index: Number for the first LED in the strip, starting with zero
+  // count: How many LEDs are in the strip?
+  // x, y: Center location, in pixels
+  // spacing: Spacing between LEDs, in pixels
+  // angle: Angle, in radians. Positive is clockwise, 0 is to the right.
+  // reversed: true = Right to left, false = Left to right
+  // type: 0=Short Short Long, 1=Short Long Short, 2=Long Short Short
+
   opc.ledStrip(0, 15, width/2, 15*2+150, 20, 0, false);
   opc.ledStrip(64, 15, width/2, 15*4+150, 20, 0, false);
   opc.ledStrip(64*2, 15, width/2, 15*6+150, 20, 0, false);
